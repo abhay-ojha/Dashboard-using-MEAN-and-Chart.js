@@ -1,0 +1,34 @@
+<div class="container-fluid page">
+  <div class="d-flex page__box p-3 mt-2">Dashboard</div>
+  <div class="page__content shadow p-3 position-relative">
+    <div class="page__content-data position-absolute text-center">
+      <div class="top">
+        <p>Data Visualization</p>
+      </div>
+      <div class="chartBox">
+        <p>Region Intensity</p>
+        <canvas id="region-intensity">{{ chart }}</canvas>
+      </div>
+
+      <div class="chartBox1">
+        <p>Total topics per region</p>
+        <canvas id="region-topic">{{ chart }}</canvas>
+      </div>
+
+      <div class="chartBox2">
+        <p>Impact per Sector</p>
+        <canvas id="sector-impact">{{ chart }}</canvas>
+      </div>
+
+      <div class="chartBox3">
+        <p>Different pestels</p>
+        <canvas id="pestle">{{ chart }}</canvas>
+      </div>
+
+      <div class="chartBox4">
+        <p>Impact on region per sector</p>
+        <canvas id="sector-impact-region">{{ chart }}</canvas>
+      </div>
+    </div>
+  </div>
+</div>
