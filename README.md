@@ -1,1 +1,2 @@
 # Dashboard-using-MEAN-and-Chart.js
+Data Visualization Dashboard using MEAN. In this project I designed a website in which I Fetched data from database and visualized it using chart.js and displayed different charts and graphs on frontend. First I have stored the data on the mongo atlas, then fetched it into my app using node.js by creating a rest api then created frontend using angular and visualized the data using chart.js
